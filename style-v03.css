@@ -1,0 +1,45 @@
+/* Shared fine pixel grid: the foreground is drawn into the same Canvas. */
+body{background:#963c43}
+.game{border-color:#000;box-shadow:6px 6px 0 #602831;background:#963c43}
+.hud{background:#963c43;padding:18px 20px}
+.hud span{border:0;box-shadow:5px 5px 0 #b9c66d;transform:skew(-5deg);font-style:italic;font-weight:900}
+.hud span b{font-size:24px;letter-spacing:1px}
+.hud button{border-color:#000;box-shadow:3px 3px 0 #000}
+.card{background:#fff;color:#000;border:3px solid #000;box-shadow:7px 7px 0 #000;transform:none;padding-top:0}
+.windowbar{display:flex;justify-content:space-between;align-items:center;background:#000;color:#fff;margin:0 -30px 22px;padding:6px 10px;font-size:13px;font-weight:bold}
+.windowbar span:last-child{font-size:20px;line-height:1}
+.card h1{font-size:38px;font-style:normal}
+.card .primary{background:#fff;color:#000;border:2px solid #000;box-shadow:3px 3px 0 #000}
+.card label input{background:#fff;color:#000;border-color:#000}
+.overlay{background:#60283188}
+.gamebar{background:#602831}
+.controls button{border-color:#000;box-shadow:3px 3px 0 #000}
+@media(pointer:fine){
+  body,button,a,canvas{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='28' viewBox='0 0 12 14' shape-rendering='crispEdges'%3E%3Cpath d='M1 1V11H3V9H5V11H6V13H8V11H7V9H10V8H9V7H8V6H7V5H6V4H5V3H4V2H3V1Z' fill='white' stroke='black' stroke-width='1'/%3E%3C/svg%3E") 2 2,default}
+}
+@media(max-width:650px){
+  .hud{padding:13px 10px}.hud span b{font-size:18px}
+  .windowbar{margin:0 -16px 20px}.card h1{font-size:32px}
+}
+.track{height:470px}.card{background:#f2dfb7}.card input,.card .primary{background:#f2dfb7}.overlay{background:#4c222c88}@media(max-width:650px){.track{height:clamp(360px,58dvh,470px)}}
+/* 0.5: readable pixel UI, brand blue and pale neutral paper. */
+:root{color:#f1ead9;color-scheme:light}
+header a{color:#f1ead9}header b{color:#7776b7}
+button,.hud span,.card,.card input,.card .primary{background:#f1ead9}
+.hud span{box-shadow:4px 4px 0 #7371ae;font-style:normal}
+.controls button:active{background-color:#c1c0de}
+button:focus-visible,input:focus-visible,a:focus-visible{outline-color:#9291cc}
+header span{font-size:14px}header small{font-size:12px;opacity:.9}header button{font-size:14px}
+.hud span{font-size:16px}.hud span b{font-size:26px}
+.gamebar{font-size:14px;min-height:45px;align-items:center}.gamebar b{font-size:18px}
+.controls span{font-size:18px}footer{font-size:13px;opacity:.95}
+.card p:not(.eyebrow){font-size:18px;line-height:1.35}.card #help{font-size:14px}.eyebrow{font-size:13px}label{font-size:15px}.primary{font-size:19px}.windowbar{font-size:17px}
+.pause-icon{display:block;width:16px;height:20px;margin:auto;background:linear-gradient(to right,#171319 0 37.5%,transparent 37.5% 62.5%,#171319 62.5% 100%)}
+@media(pointer:fine){body,button,a,canvas{cursor:url('assets/clean/cursor.png') 1 1,default}}
+@media(max-width:650px){header small{font-size:10px}header button{font-size:12px}.hud span{font-size:13px}.hud span b{font-size:22px}.gamebar{font-size:11px;padding:9px;gap:8px}.gamebar b{font-size:15px}.controls span{font-size:16px}footer{font-size:12px}.card h1{font-size:30px}.card p:not(.eyebrow){font-size:16px}.card #help{font-size:13px}.eyebrow{font-size:12px}.card{padding:14px 16px}.windowbar{margin-bottom:12px}.hud{gap:7px}.hud b{margin-left:3px}}
+
+.controls button{display:flex;align-items:center;justify-content:center;gap:18px}
+.pixel-arrow{display:inline-block;width:16px;height:20px;background:#171319;clip-path:polygon(6px 0,10px 0,10px 2px,12px 2px,12px 4px,14px 4px,14px 6px,16px 6px,16px 10px,12px 10px,12px 20px,4px 20px,4px 10px,0 10px,0 6px,2px 6px,2px 4px,4px 4px,4px 2px,6px 2px)}
+.pixel-arrow.down{transform:rotate(180deg)}
+@media(max-width:650px){.card{padding-top:0}}
+
