@@ -1,11 +1,11 @@
-# Марат · Birthday Game
+<div align="center">
+  <img src="readme/character.png" width="240" alt="Марат в праздничном колпаке / Marat in a birthday hat">
 
-Пиксельный раннер ко дню рождения.
+  <h1>Марат / 19</h1>
 
-[Играть](https://maratkraft.github.io/birthday-game/)
+  <p>Проект игры на свой день рождения)<br>A game project for my birthday :)</p>
 
-Управление: пробел / ↑ — прыжок, Shift / ↓ — присесть. На телефоне: тап или свайп вверх — прыжок, свайп вниз — присесть.
-
-Результаты сохраняются на устройстве. Музыка включается после начала забега.
-
-В этой ветке только готовая игра и используемые ресурсы. Предыдущие версии доступны в истории Git. Шрифт Pixeloid: условия в FONT-LICENSE.txt.
+  <a href="https://maratkraft.github.io/birthday-game/">
+    <img src="readme/play.svg" width="240" height="52" alt="Играть / Play">
+  </a>
+</div>
