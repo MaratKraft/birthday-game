@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="readme/character.png" width="240" alt="Марат в праздничном колпаке / Marat in a birthday hat">
+  <img src="readme/character-transparent.png" width="151" alt="Марат в праздничном колпаке / Marat in a birthday hat">
 
   <h1>Марат / 19</h1>
 
